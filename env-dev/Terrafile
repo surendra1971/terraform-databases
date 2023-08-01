@@ -3,9 +3,13 @@ docdb:
     version: "main"    
 
 redis:
-    source:  "https://github.com/b54-clouddevops/tf-module-redis.git"
+    source:  "https://github.com/surendra1971/tf-module-redis.git"
     version: "main" 
 
 mysql:
-    source:  "https://github.com/b54-clouddevops/tf-module-mysql.git"
+    source:  "https://github.com/surendra1971/tf-module-mysql.git"
     version: "main"    
+
+rabbitmq:
+    source:  "https://github.com/surendra1971/tf-module-rabbitmq.git"
+    version: "main"
